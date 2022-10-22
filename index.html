@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><marquee scrollamount="15">Acceder al Juego!!!</marquee></h1>
+    </header>
+    <main>
+        <form id="inicio">
+            <label for="Formulario de Inicio">Inicio de Sesion</label><br>
+            <input type="text" id="username" placeholder="Nombre de usuario" required maxlength="10" minlength="3"><br>
+            <input type="password" id="password" placeholder="Contraseña" required minlength="8" maxlength="16"><br><br>
+            <button id="enviar">Iniciar Sesion</button>
+            <p id="mensaje_error"></p>
+    <hr>
+        </form>
+
+        <form id="registro">
+            <label for="Formulario de Inicio">Registrese</label><br>
+            <input type="text" id="username1" placeholder="Nombre de usuario" required maxlength="10" minlength="3"><br>
+            <input type="password" id="passwordr" placeholder="Contraseña" required minlength="8" maxlength="16"><br>
+            <input type="password" id="passwordr2" placeholder="Confirmar Contraseña" required minlength="8" maxlength="16"><br><br>
+            <button id="enviar">Registrarse</button>
+            <p id="mensaje_registrado"></p>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright @Todos los derechos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
